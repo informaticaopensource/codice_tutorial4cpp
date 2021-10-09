@@ -1,3 +1,5 @@
+/* Caricamento e stampa di una tabella in C++ */
+/* La struct Ã¨ un record alunnp */
 #include <iostream>
 #include <string>
 using namespace std;
@@ -28,7 +30,7 @@ void carica (struct alunno a[],int l)
 	string temp;
 	for (k=0;k<l;k++)
 	{
-		cout << "\n Inserici nell'ordine nome, cognome, età e media voti\n";
+		cout << "\n Inserici nell'ordine nome, cognome, etÃ  e media voti\n";
 		getchar();
 		getline(cin,a[k].nome);
 		getline(cin,a[k].cognome);
@@ -39,7 +41,7 @@ void carica (struct alunno a[],int l)
 void stampa (struct alunno a[],int l)
 {int k;
 	cout << "\n Stampa Elenco alunni:";
-	cout << "Nome\t"<< "Cognome\t"<< "Età\t"<< "Media dei Voti"<<endl;
+	cout << "Nome\t"<< "Cognome\t"<< "EtÃ \t"<< "Media dei Voti"<<endl;
 	for (k=0;k<l;k++)
 			cout <<	a[k].nome << "\t"<< a[k].cognome<< "\t"<< a[k].age << "\t"<< a[k].mediav << endl;
 }
