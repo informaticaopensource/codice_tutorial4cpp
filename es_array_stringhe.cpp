@@ -1,3 +1,5 @@
+/* Ordinamento di un array di Stringhe*/ 
+/* Sono definite tre procedure carica, ordina con selection sort, e stampa*/
 #include <iostream>
 #include <string>
 using namespace std;
