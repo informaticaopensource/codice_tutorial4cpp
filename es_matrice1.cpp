@@ -1,3 +1,4 @@
+/* Calcolo della somma degli elementi di diagonale principale e secondaria di una matrice quadrata */
 #include <iostream>
 using namespace std;
 void carica (int m[][10],int p);
@@ -13,8 +14,8 @@ int main ()
 	carica(mat,p);
 	sd1=diagonali1(mat,p);
 	sd2=diagonali2(mat,p);
-	cout << "\nLa somma degli elementi di diagonale principale è:\t"<< sd1;
-	cout << "\nLa somma degli elementi di diagonale secondaria è:\t"<< sd2;
+	cout << "\nLa somma degli elementi di diagonale principale Ã¨:\t"<< sd1;
+	cout << "\nLa somma degli elementi di diagonale secondaria Ã¨:\t"<< sd2;
 	return 0;
 }
 void carica (int m[][10],int p)
